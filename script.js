@@ -125,19 +125,20 @@
 // console.log(costototal);
 
 
-function esperar(ms) {
-    return new Promise((resolve) => setTimeout(() => resolve("listo"), ms));
-}
+// function esperar(ms) {
+//     return new Promise((resolve) => setTimeout(() => resolve("listo"), ms));
+// }
 
 // const mipromesa = esperar(3000);
 // console.log(mipromesa);
 
 
-async function ejemplo() {
-    console.log("antes de esperar");
-    const resultado = await esperar(5000);
-    console.log("despues de esperar", resultado);
-}
+// async function ejemplo() {
+//     console.log("antes de esperar");
+//     const resultado = await esperar(5000);
+//     console.log("despues de esperar", resultado);
+// }
 
-ejemplo();
-console.log("esto se imprime mientras se espera");
+// ejemplo();
+// console.log("esto se imprime mientras se espera");
+
